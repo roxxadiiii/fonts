@@ -47,6 +47,11 @@ echo "copying CascadiaCode"
 sudo cp -r CascadiaCode/ /usr/share/fonts/
 echo "CascadiaCode fonts added"
 
+echo "copying FiraCode"
+sudo cp -r firaCode/ /usr/share/fonts/
+echo "firaCode added"
+
 
 # reloding configs
 sudo fc-cache -f -v
+
