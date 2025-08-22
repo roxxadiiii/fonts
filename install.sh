@@ -37,12 +37,15 @@ echo "copying Meslo"
 sudo cp -r Meslo/ /usr/share/fonts/
 echo "Meslo fonts added"
 
-echo "coping SFMonoNF"
+echo "copying SFMonoNF"
 sudo cp -r SFMonoNF/ /usr/share/fonts/
 echo "SFMono fonts added"
 
 
 
+echo "copying CascadiaCode"
+sudo cp -r CascadiaCode/ /usr/share/fonts/
+echo "CascadiaCode fonts added"
 
 
 # reloding configs
