@@ -34,6 +34,10 @@ echo "copying VictorMono"
 sudo cp -r VictorMono/ /usr/share/fonts/
 echo "VictorMono fonts added"
 
+echo "copying Meslo"
+sudo cp -r Meslo/ /usr/share/fonts/
+echo "Meslo fonts added"
+
 
 
 
