@@ -23,7 +23,6 @@ echo "copying misc fonts"
 sudo cp -r Misc/ /usr/share/fonts/
 
 echo "misc fonts copied"
-# reloding font config
 
 
 echo "copying Mononoki"
@@ -38,9 +37,13 @@ echo "copying Meslo"
 sudo cp -r Meslo/ /usr/share/fonts/
 echo "Meslo fonts added"
 
+echo "coping SFMonoNF"
+sudo cp -r SFMonoNF/ /usr/share/fonts/
+echo "SFMono fonts added"
 
 
 
 
 
+# reloding configs
 sudo fc-cache -f -v
