@@ -18,6 +18,17 @@ echo "copying MapleMono"
 sudo cp -r MapleMono/ /usr/share/fonts/
 
 echo "MapleMono fonts copied"
+
+echo "copying misc fonts"
+sudo cp -r Misc/ /usr/share/fonts/
+
+echo "misc fonts copied"
 # reloding font config
+
+
+echo "copying Mononoki"
+sudo cp -r Mononoki/ /usr/share/fonts/
+echo "mononoki fonts added"
+
 
 sudo fc-cache -f -v
