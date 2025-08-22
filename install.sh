@@ -52,6 +52,9 @@ sudo cp -r firaCode/ /usr/share/fonts/
 echo "firaCode added"
 
 
+echo "copying Monocraft"
+sudo cp -r Monocraft/ /usr/share/fonts/
+echo "Monocraft fonts added"
 # reloding configs
 sudo fc-cache -f -v
 
