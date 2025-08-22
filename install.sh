@@ -30,5 +30,13 @@ echo "copying Mononoki"
 sudo cp -r Mononoki/ /usr/share/fonts/
 echo "mononoki fonts added"
 
+echo "copying VictorMono"
+sudo cp -r VictorMono/ /usr/share/fonts/
+echo "VictorMono fonts added"
+
+
+
+
+
 
 sudo fc-cache -f -v
